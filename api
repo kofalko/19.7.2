@@ -1,0 +1,10 @@
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+valid_email = os.getenv('valid_email')
+valid_pasvord = os.getenv('valid_pasvord')
+invalid_email = "abcd@mail.ru"
+invalid_age = "ezga"
